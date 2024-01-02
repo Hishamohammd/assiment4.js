@@ -21,7 +21,7 @@ function checkUser() {
         if (singInEmail.value == user[i].email && signInPassword.value == user[i].password) {
             var y = user[i].name;
             localStorage.setItem('userName', y);
-            location.href = '../../home/home.html';
+           location.href = '../home/home.html';
             break;
            
         }

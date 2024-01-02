@@ -20,7 +20,7 @@ function add() {
             password: signUpPassword.value
         }
         user.push(obj);
-        location.href = '../../Login/logen.html';
+         location.href = './Login/logen.html';
         localStorage.setItem('user', JSON.stringify(user));
     }
 }
